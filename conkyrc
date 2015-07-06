@@ -2,7 +2,7 @@ own_window yes
 own_window_type desktop
 own_window_hints below,skip_taskbar,skip_pager
 use_xft yes
-xftfont terminus:size=9
+xftfont terminus:size=13
 xftalpha 0.8
 override_utf8_locale yes
 update_interval 5.0
@@ -54,7 +54,7 @@ ${font terminus:size=11}${color4}mem ${color2}${hr 2}${font}
 ${color1}Memory ${color}${alignr}${mem} / ${memmax}
 ${color1}Currently	${color}${alignr}${memperc}% ${membar}
 
-${font terminus:size=11}${color4}ssd ${color2}${hr 2}${font}
+${font terminus:size=11}${color4}the spacez ${color2}${hr 2}${font}
 ${color1}/	 ${color}${alignc}${fs_used /} / ${fs_size /} ${color}${alignr}${fs_free_perc /} %
 ${color}${fs_bar 5,300 /}
 ${color2}/15	 ${color}${alignc}${fs_used /15} /15 ${fs_size /15} ${color}${alignr}${fs_free_perc /15} %
