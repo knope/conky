@@ -57,8 +57,14 @@ ${color1}Currently	${color}${alignr}${memperc}% ${membar}
 ${font terminus:size=11}${color4}ssd ${color2}${hr 2}${font}
 ${color1}/	 ${color}${alignc}${fs_used /} / ${fs_size /} ${color}${alignr}${fs_free_perc /} %
 ${color}${fs_bar 5,300 /}
-${color2}/slice	 ${color}${alignc}${fs_used /slice} /slice ${fs_size /slice} ${color}${alignr}${fs_free_perc /slice} %
-${color}${fs_bar 5,300 /slice}
+${color2}/15	 ${color}${alignc}${fs_used /15} /15 ${fs_size /15} ${color}${alignr}${fs_free_perc /15} %
+${color}${fs_bar 5,300 /15}
+
+${color2}/1	 ${color}${alignc}${fs_used /1} /1 ${fs_size /1} ${color}${alignr}${fs_free_perc /1} %
+${color}${fs_bar 5,300 /1}
+
+${color2}/home	 ${color}${alignc}${fs_used /home} /home ${fs_size /home} ${color}${alignr}${fs_free_perc /home} %
+${color}${fs_bar 5,300 /home}
 
 
 
