@@ -35,7 +35,11 @@ color5 22dddd
 TEXT
 ${font terminus:size=19}${color4}Info ${color2}${hr 2}${font}
 ${color1}Date ${alignr}${color2}${time %a,}${color}${time %e %B %G}
-${color1}Time	 ${alignr}${color}${time %T}
+${color1}los angeles    ${alignr}${color}${tztime America/Los_Angeles %H:%M}
+${color1}local	 ${alignr}${color}${time %H:%M}
+${color1}ireland    ${alignr}${color}${utime %H:%M}
+${color1}bangalore    ${alignr}${color}${tztime Asia/Kolkata %H:%M}
+
 ${font terminus:size=11}battery%${color4}${exec acpi -b | awk "{print $1}" | sed "s/\([^:]*\): \([^,]*\), \([0-9]*\)%.*/\3/"}${color5}${exec acpi -a |awk -F ': ' '{print $2}'}
 
 ${font terminus:size=19}${color4}syst ${color2}${hr 2}${font}
